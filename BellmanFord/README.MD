@@ -20,11 +20,12 @@ Le programme s'exécute via la ligne de commande en spécifiant le fichier du gr
 
 python bellman_ford.py fichier.txt
 
-Démonstration 
+# Démonstration 
 
-Traitement normal 
+#### Traitement normal 
 
 Contenu du fichier : 
+
 -------
 ```
 A B 4
@@ -34,7 +35,9 @@ B D 5
 C D 3
 ```
 -------
+
 Execution
+
 -------
 ```
 Traitement du graphe: fichierNormal.txt
@@ -48,9 +51,10 @@ Vers D: distance = 5, chemin A -> C -> D
 ```
 ------
 
-Traitement négatif OK
+#### Traitement négatif OK
 
 Contenu du fichier :
+
 --------
 ```
 S A 6
@@ -65,7 +69,9 @@ D C -3
 D E 9
 ```
 -------
+
 Execution
+
 --------
 ```
 Traitement du graphe: fichierNegatifOk.txt
@@ -80,9 +86,10 @@ Vers E: distance = 12, chemin A -> C -> D -> E
 Vers S: distance = Inaccessible, chemin -
 ```
 
-Traitement de cycle négatif
+#### Traitement de cycle négatif
 
 Contenu du fichier :
+
 --------
 ```
 S A 5
@@ -92,7 +99,9 @@ C A 2
 C D 3
 ```
 ------
+
 Execution
+
 ------
 ```
 Traitement du graphe: fichierTestCycleNeg.txt
