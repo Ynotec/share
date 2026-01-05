@@ -74,9 +74,11 @@ Un quadrilatère avec une composition d'au moins 2 transformation
 
 Translation + rotation 90
 
-<img width="1316" height="655" alt="image" src="https://github.com/user-attachments/assets/e3e3667e-4dfb-4cd4-8eb0-6e2277f9e1ec" />
+<img width="995" height="495" alt="image" src="https://github.com/user-attachments/assets/6c359f5a-56e2-472a-9b69-8895b9c463fe" />
+
 
 L'effet d'une translation combinée avec une rotation 
 
-<img width="1311" height="666" alt="image" src="https://github.com/user-attachments/assets/d3b48138-6072-49d1-8a1a-a11a63af5189" />
+<img width="988" height="497" alt="image" src="https://github.com/user-attachments/assets/c6c41e6b-7346-4bd8-bfef-b1acf8bbe259" />
+
 
