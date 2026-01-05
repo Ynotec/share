@@ -18,7 +18,6 @@ Ce projet propose une implémentation native en Python de l'algorithme de Bellma
 ### Commande d'exécution
 Le programme s'exécute via la ligne de commande en spécifiant le fichier du graphe et optionnellement le nœud source.
 
-```bash
 python bellman_ford.py fichier.txt
 
 Démonstration 
