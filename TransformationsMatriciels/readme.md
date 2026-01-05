@@ -64,18 +64,11 @@ Démonstration :
 
 Un triangle avec 3 transformations appliquées
 
-Translation
+1. Rotation 90
+2. Translation
+3. Mise à l'échelle
 
-<img width="1328" height="677" alt="image" src="https://github.com/user-attachments/assets/d3f87278-dd84-4951-a8b0-57e2b660e4ac" />
-
-
-Rotation 90
-
-<img width="1325" height="682" alt="image" src="https://github.com/user-attachments/assets/6a07ffb9-ff77-43b2-9c5e-99d17ea83db6" />
-
-Mise à l'échelle x2
-
-<img width="1313" height="666" alt="image" src="https://github.com/user-attachments/assets/7aed678d-0701-4882-9943-e3f36a988034" />
+<img width="1307" height="648" alt="image" src="https://github.com/user-attachments/assets/0de9460f-4b06-4d81-8d4d-8b7134ab99fe" />
 
 Un quadrilatère avec une composition d'au moins 2 transformation
 
