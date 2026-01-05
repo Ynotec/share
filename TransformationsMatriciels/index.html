@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Visualiseur Matriciel</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <canvas id="canvas" width="800" height="600"></canvas>
+            <div class="controls">
+
+                <div class="control-group">
+                    <div class="control-group">
+                    <label for="colorPicker">Couleur de la forme</label>
+                    <input type="color" id="colorPicker" value="#3498db">
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label for="pointCount">Nombre de points (min. 3)</label>
+                    <input type="number" id="pointCount" min="3" value="3">
+                </div>
+
+                <div class="control-group">
+                    <label>Coordonnées des points</label>
+
+                    <div class="points">
+                        <div class="point">
+                            <label>Point 1:</label>
+                            <input type="number" class="x-coordinate-1" placeholder="X" value="50">
+                            <input type="number" class="y-coordinate-1" placeholder="Y" value="50">
+                        </div>
+                        <div class="point">
+                            <label>Point 2:</label>
+                            <input type="number" class="x-coordinate-2" placeholder="X" value="-50">
+                            <input type="number" class="y-coordinate-2" placeholder="Y" value="-50">
+                        </div>
+                        <div class="point">
+                            <label>Point 3:</label>
+                            <input type="number" class="x-coordinate-3" placeholder="X" value="-50">
+                            <input type="number" class="y-coordinate-3" placeholder="Y" value="50">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label>Forme prédéfinie</label>
+                    <div class="shapes">
+                        <button id="triangle">Triangle</button>
+                        <button id="quadri">Quadrilatère</button>
+                        <button id="square">Carré</button>
+                    </div>
+                    <label>Rotation</label>
+                    <div class="rotation">
+                        <button id="rotate90">Pivoter à 90</button>
+                        <button id="rotate180">Pivoter à 180</button>
+                        <button id="rotate270">Pivoter à 270</button>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <label>Translation</label>
+                    <div class="translation-inputs">
+                        <input type="number" id="transX" placeholder="X" value="10">
+                        <input type="number" id="transY" placeholder="Y" value="0">
+                        <button id="btnTranslate">Translater</button>
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label>Mise à l'échelle (Ex: 2 = x2)</label>
+                    <div class="scale-inputs">
+                        <input type="number" id="scaleFactor" placeholder="Facteur" value="1.5">
+                        <button id="btnScale">Mettre à l'échelle</button>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <script type="module"src="./main.js"></script>
+</body>
+</html>

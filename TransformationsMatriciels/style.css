@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f6fa;
+    margin: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+    justify-content: center;
+}
+
+canvas {
+    border: 1px solid #ccc;
+    background-color: #ffffff;
+    max-width: 60%; 
+}
+
+.controls {
+    flex: 1; 
+    max-width: 400px;     
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    max-height: 560px; 
+    overflow-y: auto;
+}
+
+.control-group {
+    margin-bottom: 20px;
+}
+
+.control-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.control-group input[type="number"],
+.control-group input[type="color"] {
+    padding: 6px;
+    font-size: 14px;
+}
+
+.points {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.point {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.point span {
+    width: 70px;
+    font-weight: bold;
+}
+
+.point input {
+    width: 80px;
+    padding: 5px;
+}
+
+.rotation {
+    display: flex;
+    gap: 10px;
+}
+
+.rotation button {
+    padding: 8px 12px;
+    border: none;
+    background-color: #3498db;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.rotation button:hover {
+    background-color: #2980b9;
+}
+
+.shapes {
+    display: flex;
+    gap: 10px;
+}
+
+.shapes button {
+    padding: 8px 12px;
+    border: none;
+    background-color: #3498db;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.shapes button:hover {
+    background-color: #2980b9;
+}
