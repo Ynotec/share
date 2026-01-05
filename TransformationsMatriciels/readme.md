@@ -63,6 +63,7 @@ Le projet suit une structure modulaire pour garantir la maintenabilité :
 Démonstration : 
 
 Un triangle avec 3 transformations appliquées
+
 Translation
 
 <img width="1328" height="677" alt="image" src="https://github.com/user-attachments/assets/d3f87278-dd84-4951-a8b0-57e2b660e4ac" />
